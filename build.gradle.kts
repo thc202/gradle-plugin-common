@@ -56,7 +56,7 @@ subprojects {
     apply(plugin = "com.gradle.plugin-publish")
 
     java {
-        val javaVersion = JavaVersion.VERSION_17
+        val javaVersion = JavaVersion.VERSION_21
         sourceCompatibility = javaVersion
         targetCompatibility = javaVersion
     }
